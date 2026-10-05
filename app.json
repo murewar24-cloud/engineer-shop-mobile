@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "engineer-shop-mobile",
+    "name": "Engineer Shop",
     "slug": "engineer-shop-mobile",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -16,10 +16,16 @@
         "backgroundImage": "./assets/android-icon-background.png",
         "monochromeImage": "./assets/android-icon-monochrome.png"
       },
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "com.murewa.engineershop"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "b9517669-f5b6-4428-8773-f3c068955dee"
+      }
     }
   }
 }
